@@ -40,9 +40,9 @@
    python main.py --project_path /path/to/your/project
    ```
 
-   > [!IMPORTANT]
-   >
-   > 建议您用`copy`版本运行，不要拿项目本体进行测试；本项目的`backup`不保证完全安全。
+> [!IMPORTANT]
+>
+> > 建议您用`copy`版本运行，不要拿项目本体进行测试；本项目的`backup`不保证完全安全。
 
 3. 得到结果
 
