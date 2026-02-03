@@ -14,9 +14,9 @@
 
 #### 📍 特点
 
-1. 方便易用：只需有Python环境，即可运行
-2. 多语言支持：目前支持Python代码的修改，未来将继续增加常用后端语言
-3. 自动备份：在运行后也仅仅需要一行代码，即可恢复原本的代码(假设你忘记备份了)
+1. 方便易用：只需有Python环境，即可运行。
+2. 多语言支持：目前支持Python代码的修改，未来将继续增加常用后端语言。
+3. 自动备份：在项目本地下方自动生成原本项目的备份。
 4. 世界收束线：可搭配[Rate-Your-Code](https://github.com/Haruko386-UnOffical/Rate-Your-Code)使用，彰显你原本码风的强力 \😭 /
 
 --------
@@ -27,9 +27,35 @@
 >
 > 建议在python = 3.10.9环境中运行，因为我装的是3.10.9，理论上其它也可行 **UwU**
 
-> 将在项目完工后完成相关文档，目前在加工中
+1. 将项目克隆到本地：
+
+   ```bash
+   git clone https://github.com/Haruko386-UnOffical/Destroy-Your-Code.git
+   cd Destroy-Your-Code
+   ```
+
+2. 在终端中键入命令
+
+   ```bash
+   python main.py --project_path /path/to/your/project
+   ```
+
+   > [!IMPORTANT]
+   >
+   > 建议您用`copy`版本运行，不要拿项目本体进行测试；本项目的`backup`不保证完全安全。
+
+3. 得到结果
+
+   被“摧毁”后的代码会直接替换本体项目，然后把它拿给你的同事、朋友去看吧 🤗，`ta`一定会喜欢上你的。
 
 -------
+
+#### 📝To do List
+
+- [ ] 增加C++| Java |Golang | C# 的语法支持
+- [ ] 解决未知的bug
+
+--------
 
 #### 🎫 License
 
